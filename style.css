@@ -1,0 +1,25 @@
+img{
+    margin: 0 auto;
+    display: block;
+}
+
+section{
+    width: 800px;
+    aspect-ratio: 16/9;
+    background-color: #525252;
+    background-image: url("https://res.cloudinary.com/dwuwuaov5/image/upload/c_scale,f_auto,h_1613,q_auto/v1731682154/WEB115Fa24./pexels-leeloothefirst-5447095.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+h1{
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    font-size: 58px;
+    line-height: 50px;
+    color: white;
+    background-color: rgba(177, 86, 0, .7);
+    padding: 10px;
+}
