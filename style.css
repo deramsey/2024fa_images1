@@ -3,7 +3,7 @@ img{
     display: block;
 }
 
-section{
+#b{
     width: 800px;
     aspect-ratio: 16/9;
     background-color: #525252;
@@ -22,4 +22,36 @@ h1{
     color: white;
     background-color: rgba(177, 86, 0, .7);
     padding: 10px;
+}
+
+#a {
+    width: 960px;
+    aspect-ratio: 16/9;
+    background-color: #333;
+    background-image: url("https://res.cloudinary.com/dwuwuaov5/image/upload/c_scale,w_182/v1731937197/WEB115Fa24./pexels-pixabay-531880.jpg"), url("https://res.cloudinary.com/dwuwuaov5/image/upload/c_scale,f_auto,h_1613,q_auto/v1731682154/WEB115Fa24./pexels-leeloothefirst-5447095.jpg");
+    background-repeat: no-repeat;
+    /*background-position: 700px 300px;*/
+    background-size: 960px, 1080px;
+    background-attachment: center center;
+    border: 5px solid #ff8800;
+    padding: 40px;
+    background-origin: content-box, padding-box;
+}
+
+audio{
+    width: 100%;
+    height: 300px;
+    background-color: green !important;
+}
+
+video{
+    width: 960px;
+}
+
+#vid_title{
+    z-index: 1;
+    position: relative;
+    top: -250px;
+    color: white;
+    width: 500px;
 }
